@@ -34,3 +34,6 @@ header h1 {
 .images img {
     margin: 0 20px;
 }
+.link {
+    text-align: center;
+}
