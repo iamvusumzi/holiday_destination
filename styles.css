@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+}
+
+header {
+    overflow: auto;
+    height: 700px;
+    background-image: url("./images/maldives.jpg");
+    background-size: 1800px 1200px;
+    background-position: center;
+}
+
+header h1 {
+    text-shadow: 1px 1px 2px black;
+    color: bisque;
+    margin: 250px 0 250px 0;
+    font-size: 60pt;
+    font-weight: bold;
+    text-align: center;
+}
+
+.title {
+    margin: 30px 0 30px 0;
+    font-size: 30pt;
+    font-weight: bold;
+    text-align: center;
+}
+
+.images {
+    text-align: center;
+}
+.images img {
+    margin: 0 20px;
+}
