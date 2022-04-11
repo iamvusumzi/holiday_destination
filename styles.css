@@ -34,3 +34,37 @@ header h1 {
 .images img {
     margin: 0 20px;
 }
+
+a {
+    margin: auto;
+    display: table;
+}
+
+.small-header {
+    height: 100px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+form {
+    width: 40%;
+}
+
+.line {
+    /* text-align: left; */
+    margin: 10px;
+}
+
+.line input {
+    width: 250px;
+}
+.line input[type="submit"] {
+    margin-top: 10px;
+    width: 150px;
+    color: white;
+    background-color: #0275d8;
+    height: 40px;
+    border: none;
+}
