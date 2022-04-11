@@ -4,12 +4,55 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.css" />
         <title>Contact</title>
     </head>
     <body>
-        <h1>Maldives contact details</h1>
-        <p>Tel: +960 400 2022</p>
-        <p>Email: info@brennia.com</p>
+        <header class="small-header">
+            <div class="container">
+                <h1 class="title">Contact Us</h1>
+            </div>
+        </header>
+
+        <section class="info">
+            <div class="container">
+                <h3>Contact us using the following:</h3>
+                <p>Tel: +960 400 2022</p>
+                <p>Email: info@brennia.com</p>
+
+                <h3>Fill in the following to make a booking into our resort</h3>
+                <form action="https://formspree.io/f/xyyonkov" method="post">
+                    <div class="line">
+                        <label for="name"
+                            >Name: <input type="text" name="name"
+                        /></label>
+                    </div>
+                    <div class="line">
+                        <label for="email"
+                            >Email: <input type="email" name="email"
+                        /></label>
+                    </div>
+                    <div class="line">
+                        <label for="contact"
+                            >Contact: <input type="text" name="contact"
+                        /></label>
+                    </div>
+                    <div class="line">
+                        <label for="date"
+                            >Date: <input type="date" name="date"
+                        /></label>
+                    </div>
+                    <div class="line">
+                        <label for="time"
+                            >Time: <input type="time" name="time"
+                        /></label>
+                    </div>
+                    <div class="line">
+                        <input type="submit" value="Submit" />
+                    </div>
+                </form>
+            </div>
+        </section>
 
         <a href="./index.html">Click here to go to home page...</a>
     </body>
